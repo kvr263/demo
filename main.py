@@ -5,5 +5,10 @@ def main():
         val = 0 
   print(a)
 
+
+def addItem(item, my_list):
+  my_list.append(item)
+  return my_list
+
 if __name__ == "__main__":
   main()
