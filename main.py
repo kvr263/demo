@@ -12,3 +12,4 @@ def addItem(item, my_list):
 
 if __name__ == "__main__":
   main()
+  addItem("abc",[])
